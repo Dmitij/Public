@@ -12,5 +12,6 @@ namespace WebMarket.ViewModels
         public string LastName { get; set; }
         public string Patronymic { get; set; }
         public int Age { get; set; }
+        public bool Male { get; set; }
     }
 }

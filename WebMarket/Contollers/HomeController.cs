@@ -18,7 +18,8 @@ namespace WebMarket.Contollers
                 FirstName = "Иван",
                 LastName = "Пузиков",
                 Patronymic =  "Александрович",
-                Age = 22
+                Age = 22,
+                Male = true
             },
             new EmployerView
             {
@@ -26,7 +27,26 @@ namespace WebMarket.Contollers
                 FirstName = "Владислав",
                 LastName = "Петров",
                 Patronymic = "Иванович",
-                Age = 35
+                Age = 35,
+                Male = true
+            },
+            new EmployerView
+            {
+                Id = 3,
+                FirstName = "Анна",
+                LastName = "Пукина",
+                Patronymic = "Петровна",
+                Age = 40,
+                Male = false
+            },
+            new EmployerView
+            {
+                Id = 4,
+                FirstName = "Борис",
+                LastName = "Моисеев",
+                Patronymic = "Иванович",
+                Age = 60,
+                //Male = null
             }
         };
 
